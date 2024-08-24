@@ -11,8 +11,6 @@ body {
 }
 
 
-
-
 .basic-font {
   font-family: 'NanumSquareNeo', sans-serif;
 }
@@ -145,4 +143,74 @@ form {
 
 .add-back:hover {
   color : black;
+}
+
+
+.add-btn {
+  margin-top: 10px;
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+.add-btn:hover {
+  color: black;
+}
+
+.viewMain {
+  text-align: center;
+}
+
+.view-board {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-width: 600px; /* 보드의 최대 너비 */
+  height: 200px; /* 5개의 항목이 보일 수 있는 높이 */
+  overflow: hidden; /* 보드 밖으로 나가는 내용을 숨김 */
+  position: relative;
+
+  margin-top : 30px;
+  margin-bottom : 50px;
+}
+
+.view-items {
+  padding: 10px;
+  text-align: left;
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  transition: transform 0.5s ease-in-out; /* 이동 애니메이션 */
+}
+
+
+.view-items-time {
+  color : gray;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.viewMain h1 {
+  margin-bottom: 0px;
+  font-family: Verdana;
+  margin-top : 50px;
+  font-weight: bold;
+}
+
+.viewMain h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: Georgia;
+}
+
+.viewMain h3 {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-family: Georgia;
 }
